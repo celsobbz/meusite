@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.montserrat-bbz{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.titulo{
+    position: fixed;
+    top: 0;
+    background-color: antiquewhite;
+    border-radius: 5% 5% 0% 0%;
+    height: flex;
+    width: flex;
+    padding: 10px;
+    border: 2px gray;
+    margin: 0px;
+    position: sticky;
+}
+.nome{
+    font-family: 'Montserrat';
+    font-weight: 800; /*ajusta a espessura da letra*/
+    color: darkgray;
+}
+h2{
+    font-family: 'Montserrat';
+    font-size: 3em;
+}
+h3{
+    font-family: 'Montserrat';
+    font-size: 80%;
+}
+.container-inicio{
+    background-color: antiquewhite;
+    height: auto;
+    width: flex;
+    padding: 10px;
+    border: 2px gray;
+    margin: 0px;
+}
+.texto-descricao{
+    color: antiquewhite;
+}
+.container-descricao{
+    background-color: black;
+    height: auto;
+    width: flex;
+    padding: 10px;
+    border: 2px gray;
+    margin: 0px;
+}
+.contato{
+    background-color: black;
+    height: auto;
+    width: flex;
+    padding: 10px;
+    border: 2px gray;
+    margin: 0px;
+}
+.texto-contato{
+    color: antiquewhite;
+}
+a:link, a:visited, a:active {
+	text-decoration: none;
+    color: antiquewhite;
+}
+a:hover {text-decoration: underline;
+	color:whitesmoke;
+    font-size: 110%;
+}
