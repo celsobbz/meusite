@@ -32,7 +32,7 @@ body{
 }
 h2{
     font-family: 'Montserrat';
-    font-size: 3.5em; /*exibe a fonte o triplo do tamanho*/
+    font-size: 3em; /*exibe a fonte o triplo do tamanho*/
 }
 h3{
     font-family: 'Montserrat';
@@ -41,13 +41,13 @@ h3{
 .container{
     display: flex;
     margin: 2px;
-    padding-left: 10px;
+    padding: 10px;
     justify-content: center;
 }
 .container-inicio{
     background-color: antiquewhite;
     height: auto;
-    width: 500px;
+    min-width: 400px;
     padding: 20px;
     border: 2px gray;
     margin: 0px;
@@ -56,17 +56,20 @@ h3{
     color: antiquewhite;
 }
 .container-descricao{
+    display: flex;
     background-color: black;
     height: auto;
-    width: 500px;
+    min-width: 400px;
     padding: 10px;
     border: 2px gray;
     margin: 0px;
 }
 .contato{
+    display: flex;
     background-color: black;
     height: 80vh;
-    width: 500px;
+    min-width: 453px;
+    width:100%;
     padding: 10px;
     border: 2px gray;
     margin: 0px;
