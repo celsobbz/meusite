@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: antiquewhite;
+}
 .montserrat-bbz{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -29,16 +32,21 @@
 }
 h2{
     font-family: 'Montserrat';
-    font-size: 3em;
+    font-size: 3.5em; /*exibe a fonte o triplo do tamanho*/
 }
 h3{
     font-family: 'Montserrat';
-    font-size: 80%;
+    font-size: 1.25em;
+}
+.container{
+    display: flex;
+    margin: 2px;
+    justify-content: center;
 }
 .container-inicio{
     background-color: antiquewhite;
     height: auto;
-    width: flex;
+    width: 500px;
     padding: 10px;
     border: 2px gray;
     margin: 0px;
@@ -49,15 +57,15 @@ h3{
 .container-descricao{
     background-color: black;
     height: auto;
-    width: flex;
+    width: 500px;
     padding: 10px;
     border: 2px gray;
     margin: 0px;
 }
 .contato{
     background-color: black;
-    height: auto;
-    width: flex;
+    height: 80vh;
+    width: 500px;
     padding: 10px;
     border: 2px gray;
     margin: 0px;
@@ -71,5 +79,5 @@ a:link, a:visited, a:active {
 }
 a:hover {text-decoration: underline;
 	color:whitesmoke;
-    font-size: 110%;
+    font-size: 120%;
 }
