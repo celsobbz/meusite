@@ -41,6 +41,7 @@ h3{
 .container{
     display: flex;
     margin: 2px;
+    padding-left: 10px;
     justify-content: center;
 }
 .container-inicio{
