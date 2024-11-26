@@ -28,7 +28,7 @@ body{
 .nome{
     font-family: 'Montserrat';
     font-weight: 800; /*ajusta a espessura da letra*/
-    color: darkgray;
+    color: black;
 }
 h2{
     font-family: 'Montserrat';
@@ -41,16 +41,20 @@ h3{
 .container{
     display: flex;
     margin: 5px;
+    border: 2px;
     padding: 15px;
     justify-content: center;
 }
 .container-inicio{
+    display: flex;
     background-color: antiquewhite;
     height: auto;
-    min-width: 400px;
-    padding: 20px;
+    min-width: 300px;
+    margin-left: auto;
     border: 2px gray;
-    margin: 0px;
+    padding: 15px;
+    justify-content: center;
+    flex-direction: column;
 }
 .texto-descricao{
     color: antiquewhite;
@@ -59,20 +63,21 @@ h3{
     display: flex;
     background-color: black;
     height: auto;
-    min-width: 400px;
-    padding: 10px;
+    min-width: 300px;
+    margin-left: auto;
     border: 2px gray;
-    margin: 0px;
+    padding: 20px;
+    justify-content: center;
 }
 .contato{
     display: flex;
     background-color: black;
     height: 80vh;
-    min-width: 453px;
+    min-width: 325px;
     width:100%;
-    padding: 10px;
+    margin-left: auto;
     border: 2px gray;
-    margin: 0px;
+    padding: 20px;
 }
 .texto-contato{
     color: antiquewhite;
