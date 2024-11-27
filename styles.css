@@ -20,7 +20,7 @@ body{
     border-radius: 5% 5% 0% 0%;
     height: flex;
     width: flex;
-    padding: 10px;
+    padding-left: 10px;
     border: 2px gray;
     margin: 0px;
     position: sticky;
@@ -42,18 +42,22 @@ h3{
     display: flex;
     margin: 5px;
     border: 2px;
-    padding: 15px;
+    padding-left: 15px;
     justify-content: center;
+    align-items: center;
+    display: block;
 }
 .container-inicio{
     display: flex;
     background-color: antiquewhite;
-    height: auto;
-    min-width: 300px;
-    margin-left: 2px;
+    height: 450px;
+    min-width: 400px;
+    max-width: 500px;
     border: 2px gray;
-    padding: 15px;
-    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    justify-content:right;
     flex-direction: column;
 }
 .texto-descricao{
@@ -63,21 +67,26 @@ h3{
     display: flex;
     background-color: black;
     height: auto;
-    min-width: 300px;
-    margin-left: auto;
+    min-width: 400px;
+    max-width: 500px;
     border: 2px gray;
+    margin-right: auto;
+    margin: auto;
     padding: 20px;
     justify-content: center;
+    align-items: center;
 }
 .contato{
     display: flex;
     background-color: black;
     height: 80vh;
-    min-width: 325px;
-    width:100%;
-    margin-left: auto;
+    min-width: 400px;
+    max-width: 500px;
     border: 2px gray;
+    margin-right: auto;
+    margin-left: auto;
     padding: 20px;
+    justify-content: left;
 }
 .texto-contato{
     color: antiquewhite;
@@ -88,5 +97,111 @@ a:link, a:visited, a:active {
 }
 a:hover {text-decoration: underline;
 	color:whitesmoke;
-    font-size: 120%;
 }
+
+/*Animação do card - palavras*/
+.cardEficiencia:hover .phraseEficiencia{
+    opacity: 1;
+    visibility: visible;
+}
+.phraseEficiencia{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 115%;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    background-color: antiquewhite;
+    top: 75%;
+    transform: translateX(-3%);
+    padding: 8px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.281);
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.cardExperiencia:hover .phraseExperiencia{
+    opacity: 1;
+    visibility: visible;
+}
+.phraseExperiencia{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 115%;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    background-color: antiquewhite;
+    top: 75%;
+    transform: translateX(-3%);
+    padding: 8px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.281);
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.cardCriatividade:hover .phraseCriatividade{
+    opacity: 1;
+    visibility: visible;
+}
+.phraseCriatividade{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 115%;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    background-color: antiquewhite;
+    top: 75%;
+    transform: translateX(-3%);
+    padding: 8px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.281);
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.cardAnalise:hover .phraseAnalise{
+    opacity: 1;
+    visibility: visible;
+}
+.phraseAnalise{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 115%;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    background-color: antiquewhite;
+    top: 75%;
+    transform: translateX(-3%);
+    padding: 8px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.281);
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.cardPesquisa:hover .phrasePesquisa{
+    opacity: 1;
+    visibility: visible;
+}
+.phrasePesquisa{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 115%;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    background-color: antiquewhite;
+    top: 75%;
+    transform: translateX(-3%);
+    padding: 8px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.281);
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
